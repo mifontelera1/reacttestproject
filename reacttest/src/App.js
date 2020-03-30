@@ -5,6 +5,7 @@ function App() {
   return (
     <div className='App'>
       <p>Hello This is a test</p>
+      <p>Another paragraph</p>
     </div>
   );
 }
