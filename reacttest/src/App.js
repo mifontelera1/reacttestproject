@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
+import HomePage from './components/homepage.component';
+import Sidebar from './components/sidebar.component';
+import Navbar from './components/navbar.component';
 
 function App() {
   return (
     <div className='App'>
-      <p>Hello This is a test</p>
-      <p>Another paragraph</p>
+      <Navbar />
+      <div className='container'>
+        <div className='row'>
+          <Sidebar />
+          <HomePage />
+        </div>
+      </div>
     </div>
   );
 }
